@@ -2,8 +2,9 @@
 /* All comments go between the front slash and asterisk symbols */
 
 body {
-	background-color: #9CB17E;   /* background color */
+	background-color: #E7DAC4;   /* background color */
 	color: #444;          /* text color for the entire page */
+	
 }
 
 h1, h2 { 
@@ -20,9 +21,10 @@ h1, h2 {
 .stepTitle{
 	padding:10px;
 	text-align:left;
-	background-color:#C1D29B;
+	background-color:#460304;
 	font-weight: bold;
 	font-size: 150%;
+	color:#D5D5D5
  }
 
 .stepContent{ 
