@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	text-align: center;
+	background-color:#E7DAC4;  
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+
+a {
+	padding: 15px;
+margin: 3px;
+	font-size: 125%;
+	background-color:#460304; 
+	color:  #FFFFFF; 
+}
+a:hover {
+	font-size:200%;
+	background-color: #D2B6B6; 
+	color: #CA9293; 
+}
+
+.divider {
+	display: table;
+}
+
+.subDivider {
+	display: table-row;
+}
+
+.dividedCell {
+	display: table-cell;
+	vertical-align: top;
+	background-color: #FFFFFF;
+}
