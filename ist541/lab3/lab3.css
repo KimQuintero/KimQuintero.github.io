@@ -22,6 +22,34 @@ a:hover {
 	color: #CA9293; 
 }
 
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #460304;
+	border-radius: 20px;
+}
+
+li {
+	float:left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: black;
+	font-size: 120%;
+	font-weight: bold;
+}
+
 .divider {
 	display: table;
 }

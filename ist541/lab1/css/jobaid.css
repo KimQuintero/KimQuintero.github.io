@@ -17,6 +17,34 @@ h1, h2 {
 	margin: 0 auto;    /* centers wrapper */
 }
 
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #460304;
+	border-radius: 20px;
+}
+
+li {
+	float:left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: black;
+	font-size: 120%;
+	font-weight: bold;
+}
+
 /* styles for the "stepTitle" class, notice that "stepTitle" is preceded by a dot */
 .stepTitle{
 	padding:10px;
