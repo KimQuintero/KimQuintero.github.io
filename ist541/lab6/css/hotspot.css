@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+/*	text-align: center;*/
+	background-color: #E7DAC4;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+#wrapper {
+		text-align: center;
+
+width: 900px;
+margin: 0 auto;
+/*text-align: left;*/
+}
+
+ #planning {
+border: black 5px solid;
+}
+ 
+ #board {
+display: none; /* hides content */
+border: black 5px solid;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #460304;
+	border-radius: 20px;
+}
+
+li {
+	float:left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: black;
+	font-size: 120%;
+	font-weight: bold;
+}
+.stepTitle {
+	padding:10px;
+	text-align: left;
+	background-color: #460304;
+	font-weight: bold;
+	font-size: 150%;
+	color:#D5D5D5;
+	
+}
+
+.stepContent {
+	background-color: white;
+	padding:7px;
+	text-align: left;
+/*	display:flex;*/
+/*	flex-wrap: wrap;*/
+	justify-content: center;
+}
+
+#feedback {
+	background: lightyellow; /* background color */
+	padding: 20px; 
+    font-size: 125%;
+}
+
+
+.stepContent2 {
+	background-color: white;
+	padding:7px;
+/*	text-align: center;*/
+/*	position: sticky;*/
+/*	display:flex;*/
+/*	flex-wrap: wrap;*/
+/*	justify-content: center;*/
+}
