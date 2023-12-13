@@ -8,10 +8,12 @@ body {
 }
 #wrapper {
 		text-align: center;
-
-width: 900px;
+/*width: 900px;*/
 margin: 0 auto;
 /*text-align: left;*/
+}
+p {
+	font-size: 20px;
 }
 
  #planning {
@@ -24,7 +26,7 @@ border: black 5px solid;
 }
 
 
-ul {
+.ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -33,11 +35,11 @@ ul {
 	border-radius: 20px;
 }
 
-li {
+.li {
 	float:left;
 }
 
-li a {
+.li a {
 	display: block;
 	color: white;
 	text-align: center;
@@ -45,7 +47,7 @@ li a {
 	text-decoration: none;
 }
 
-li a:hover {
+.li a:hover {
 	background-color: black;
 	font-size: 120%;
 	font-weight: bold;
@@ -67,6 +69,7 @@ li a:hover {
 /*	display:flex;*/
 /*	flex-wrap: wrap;*/
 	justify-content: center;
+	padding:20px;
 }
 
 #feedback {

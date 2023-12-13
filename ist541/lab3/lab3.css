@@ -7,17 +7,21 @@ body {
 	padding-right: 10%;
 	padding-left: 10%;
 }
+p {
+	font-size: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
-
-a {
+.a {
 	padding: 15px;
 margin: 3px;
 	font-size: 125%;
 	background-color:#460304; 
 	color:  #FFFFFF; 
 }
-a:hover {
-	font-size:200%;
+.a:hover {
+	font-size:120%;
 	background-color: #D2B6B6; 
 	color: #CA9293; 
 }
